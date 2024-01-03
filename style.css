@@ -1,0 +1,65 @@
+body {
+    background-color: #ffd2d2;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 500px;
+    background-color: #fcb6b6;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    border: 2px solid #ff0000;
+    text-align: center;
+
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #ff0000;
+    font-size: 28px;
+
+}
+
+.calculadora-amor {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ff0000;
+}
+
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+button{
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #ff0000;
+    font-weight: bold;
+}
